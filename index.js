@@ -22,9 +22,11 @@ function sayHiToGrandma(string){
 
   if (string.toLowerCase()){
     string = "I can't hear you!";
+    return string
   }else if (string.toUpperCase()){
     string = "YES INDEED!";
+    return string
   }
 
-  return string
+
 }
